@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'gora_free';
+    src: url('../fonts/gora-free-webfont.woff2') format('woff2'),
+         url('../fonts/gora-free-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: optional;
+}
+
+@font-face {
+    font-family: 'open_sans';
+    src: url('../fonts/opensans-light-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: optional;
+}
+
+@font-face {
+    font-family: 'open_sans';
+    src: url('../fonts/opensans-lightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-lightitalic-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: optional;
+}
+
+@font-face {
+    font-family: 'open_sans';
+    src: url('../fonts/opensans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: optional;
+}
+
+body {
+    font-family: 'gora_free', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1060px;
+}
+
+.logo, .contacts {
+    display: inline-block;
+}
+
+.contacts__phone {
+    font-family: 'open_sans';
+    font-weight: bold;
+    font-size: 21px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.contacts__desc {
+    font-family: 'open_sans';
+    font-weight: bold;
+    font-size: 14px;
+    color: #ff9900;
+    text-decoration: underline;
+}
+
+.header {
+    height: 75px;
+    background: #2b2b2b;
+}
+
+/* .container {
+    margin: 0 auto;
+    width: 1060px;
+}
+
+.logo, .contacts {
+    display: inline-block;
+}
+
+.contacts__phone {
+    font-weight: bold;
+    font-size: 21px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.contacts__desc {
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(248, 149, 19, 0.702);
+}
+
+.header {
+    height: 75px;
+    background: color= #2b2b2b;
+    position: relative;
+}
+
+.header .container {
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.contacts {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.desc__image {
+    width: 930px;
+    height: 400px;
+} 
+
+
+.Афродита {
+  font-size: 18px;
+  font-family: "Gora Free";
+  color: rgb(248, 149, 19);
+  
+ 
+  
+}
+
+
+*/
+
+  
